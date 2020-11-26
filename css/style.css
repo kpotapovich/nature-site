@@ -234,7 +234,7 @@ h4{
 .images {
     max-width: 100%;
     width: 360px;
-    height: 300px;
+    height: 350px;
     text-decoration: none;
 
 }
@@ -306,7 +306,7 @@ li{
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
-    color: #03406A;
+    color: #ffffff;
     background: #06c8d9;
     /*background: linear-gradient(90deg, #06c8d9 0%,#06c8d9 100%);*/
     border: none;
@@ -495,3 +495,156 @@ li{
     line-height: 1.6;
 }
 
+.foto-coast{
+    width: 500px;
+    height: 400px;
+}
+/* button */
+
+
+.b-button{
+    font-family: 'Montserrat',sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    padding: .7em 1.8em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.b-button--gooey {
+    color: #06c8d9;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #06c8d9;
+    border-radius: 0;
+    position: relative;
+    transition: all 700ms ease;
+}
+
+.b-button--gooey .b-button__blobs {
+    height: 100%;
+    filter: url(#goo);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -3px;
+    right: -1px;
+    z-index: -1;
+}
+
+.b-button--gooey .b-button__blobs div {
+    background-color: #06c8d9;
+    width: 34%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    transform: scale(1.4) translateY(125%) translateZ(0);
+    transition: all 700ms ease;
+}
+
+.b-button--gooey .b-button__blobs div:nth-child(1) {
+    left: -5%;
+}
+
+.b-button--gooey .b-button__blobs div:nth-child(2) {
+    left: 30%;
+    transition-delay: 60ms;
+}
+
+.b-button--gooey .b-button__blobs div:nth-child(3) {
+    left: 66%;
+    transition-delay: 25ms;
+}
+
+.b-button--gooey:hover {
+    color: #fff;
+}
+
+.b-button--gooey:hover .b-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+.b-button--gooey:hover .b-button__blobs div {
+    transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+.m-button{
+    margin: 20px 50px
+}
+
+/* off button */
+
+.big-flex {
+    display: flex;
+
+}
+
+.text-hot {
+    text-align: left;
+    font-size: 35px;
+    padding: 7% 0 2%;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+}
+
+
+.benidorm{
+    font-size: 25px;
+    text-align: left;
+    margin: 30px 50px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+}
+.tab-pane{
+    margin: 20px 70px 20px 50px;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+.block-c {
+    display: flex;
+    font-weight: 500;
+    border-top:  1px solid #9b9b9b;
+    margin-bottom: 50px;
+}
+
+.product-big-price-wrap {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+
+}
+
+.product-big {
+    font-size: 30px;
+    background-color: #01b3a7;
+    padding: 20px;
+    margin-top: 40px;
+    bottom: -1px;
+    left: -1px;
+    z-index: 1;
+    position: inherit;
+    overflow: hidden;
+    color: white;
+}
+    /*position: absolute;*/
+    /*content: '';*/
+    /*bottom: 0;*/
+    /*left: 14px;*/
+    /*width: 400%;*/
+    /*height: 100%;*/
+    /*background: #01b3a7;*/
+    /*transform: skew(45deg);*/
+    /*transform-origin: 50% 100%;*/
+    /*will-change: transform;*/
+    /*pointer-events: none;*/
+    /*z-index: -1;*/
